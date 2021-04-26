@@ -1,0 +1,39 @@
+﻿@model Kursovaya_MVC.Work_wrk_Result
+@{
+    ViewBag.Title = "Выбрать работников на заданную дату";
+}
+
+@using (Html.BeginForm("Worker", "Zap1"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Введите название отдела и дату</h4>
+        <p>Выдать список работников заданного отдела на заданную дату, упорядоченный по возрасту.</p>
+        <hr />
+        <div class="form-group">           
+            <div class="col-md-10">
+                <label for="otdel">Наименование отдела</label>
+                @Html.DropDownList("otdel", ViewBag.dep as SelectList)
+            </div>
+        </div>
+
+        <div class="form-group">         
+            <div class="col-md-10">
+                <label for="dat">Дата</label>
+                @Html.TextBox("dat", "Введите дату")
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Выбрать" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

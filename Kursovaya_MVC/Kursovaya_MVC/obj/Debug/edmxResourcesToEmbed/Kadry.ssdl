@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище KadryModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Children">
+    <Key>
+      <PropertyRef Name="ID_Children" />
+    </Key>
+    <Property Name="ID_Children" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="45" />
+    <Property Name="Sex" Type="varchar" MaxLength="20" />
+    <Property Name="Birthday" Type="date" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="ID_Department" />
+    </Key>
+    <Property Name="ID_Department" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="45" />
+    <Property Name="Numb_Rooms" Type="int" />
+  </EntityType>
+  <EntityType Name="Worker">
+    <Key>
+      <PropertyRef Name="N_worker" />
+    </Key>
+    <Property Name="N_worker" Type="int" Nullable="false" />
+    <Property Name="Full_Name" Type="varchar" MaxLength="255" />
+    <Property Name="Passport" Type="varchar" MaxLength="45" />
+    <Property Name="Address" Type="varchar" MaxLength="255" />
+    <Property Name="Birthday" Type="date" />
+    <Property Name="Sex" Type="varchar" MaxLength="20" />
+    <Property Name="Post" Type="varchar" MaxLength="45" />
+    <Property Name="Аmount_of_children" Type="int" />
+  </EntityType>
+  <EntityType Name="Worker_has_Children">
+    <Key>
+      <PropertyRef Name="ID_Rec" />
+    </Key>
+    <Property Name="ID_Rec" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Children_ID_Children" Type="int" Nullable="false" />
+    <Property Name="Worker_N_worker" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Worker_has_Department">
+    <Key>
+      <PropertyRef Name="ID_Appointment" />
+    </Key>
+    <Property Name="ID_Appointment" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Worker_N_worker" Type="int" Nullable="false" />
+    <Property Name="Department_ID_Department" Type="int" Nullable="false" />
+    <Property Name="Date_Start" Type="date" />
+    <Property Name="Date_End" Type="date" />
+  </EntityType>
+  <Association Name="FK__Worker_ha__Child__19DFD96B">
+    <End Role="Children" Type="Self.Children" Multiplicity="1" />
+    <End Role="Worker_has_Children" Type="Self.Worker_has_Children" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Children">
+        <PropertyRef Name="ID_Children" />
+      </Principal>
+      <Dependent Role="Worker_has_Children">
+        <PropertyRef Name="Children_ID_Children" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Worker_ha__Depar__151B244E">
+    <End Role="Department" Type="Self.Department" Multiplicity="1" />
+    <End Role="Worker_has_Department" Type="Self.Worker_has_Department" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="ID_Department" />
+      </Principal>
+      <Dependent Role="Worker_has_Department">
+        <PropertyRef Name="Department_ID_Department" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Worker_ha__Worke__160F4887">
+    <End Role="Worker" Type="Self.Worker" Multiplicity="1" />
+    <End Role="Worker_has_Department" Type="Self.Worker_has_Department" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Worker">
+        <PropertyRef Name="N_worker" />
+      </Principal>
+      <Dependent Role="Worker_has_Department">
+        <PropertyRef Name="Worker_N_worker" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Worker_ha__Worke__18EBB532">
+    <End Role="Worker" Type="Self.Worker" Multiplicity="1" />
+    <End Role="Worker_has_Children" Type="Self.Worker_has_Children" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Worker">
+        <PropertyRef Name="N_worker" />
+      </Principal>
+      <Dependent Role="Worker_has_Children">
+        <PropertyRef Name="Worker_N_worker" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="Work_chi" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Work_wrk" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dname" Type="varchar" Mode="In" />
+    <Parameter Name="vdate" Type="date" Mode="In" />
+  </Function>
+  <EntityContainer Name="Хранилище KadryModelContainer">
+    <EntitySet Name="Children" EntityType="Self.Children" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Worker" EntityType="Self.Worker" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Worker_has_Children" EntityType="Self.Worker_has_Children" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Worker_has_Department" EntityType="Self.Worker_has_Department" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Worker_ha__Child__19DFD96B" Association="Self.FK__Worker_ha__Child__19DFD96B">
+      <End Role="Children" EntitySet="Children" />
+      <End Role="Worker_has_Children" EntitySet="Worker_has_Children" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Worker_ha__Depar__151B244E" Association="Self.FK__Worker_ha__Depar__151B244E">
+      <End Role="Department" EntitySet="Department" />
+      <End Role="Worker_has_Department" EntitySet="Worker_has_Department" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Worker_ha__Worke__160F4887" Association="Self.FK__Worker_ha__Worke__160F4887">
+      <End Role="Worker" EntitySet="Worker" />
+      <End Role="Worker_has_Department" EntitySet="Worker_has_Department" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Worker_ha__Worke__18EBB532" Association="Self.FK__Worker_ha__Worke__18EBB532">
+      <End Role="Worker" EntitySet="Worker" />
+      <End Role="Worker_has_Children" EntitySet="Worker_has_Children" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

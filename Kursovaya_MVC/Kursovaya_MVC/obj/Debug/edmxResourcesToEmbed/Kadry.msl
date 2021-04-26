@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище KadryModelContainer" CdmEntityContainer="KadryEntities">
+    <EntitySetMapping Name="Children">
+      <EntityTypeMapping TypeName="KadryModel.Children">
+        <MappingFragment StoreEntitySet="Children">
+          <ScalarProperty Name="ID_Children" ColumnName="ID_Children" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Department">
+      <EntityTypeMapping TypeName="KadryModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="ID_Department" ColumnName="ID_Department" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Numb_Rooms" ColumnName="Numb_Rooms" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Worker">
+      <EntityTypeMapping TypeName="KadryModel.Worker">
+        <MappingFragment StoreEntitySet="Worker">
+          <ScalarProperty Name="N_worker" ColumnName="N_worker" />
+          <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+          <ScalarProperty Name="Passport" ColumnName="Passport" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Аmount_of_children" ColumnName="Аmount_of_children" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Worker_has_Children">
+      <EntityTypeMapping TypeName="KadryModel.Worker_has_Children">
+        <MappingFragment StoreEntitySet="Worker_has_Children">
+          <ScalarProperty Name="ID_Rec" ColumnName="ID_Rec" />
+          <ScalarProperty Name="Children_ID_Children" ColumnName="Children_ID_Children" />
+          <ScalarProperty Name="Worker_N_worker" ColumnName="Worker_N_worker" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Worker_has_Department">
+      <EntityTypeMapping TypeName="KadryModel.Worker_has_Department">
+        <MappingFragment StoreEntitySet="Worker_has_Department">
+          <ScalarProperty Name="ID_Appointment" ColumnName="ID_Appointment" />
+          <ScalarProperty Name="Worker_N_worker" ColumnName="Worker_N_worker" />
+          <ScalarProperty Name="Department_ID_Department" ColumnName="Department_ID_Department" />
+          <ScalarProperty Name="Date_Start" ColumnName="Date_Start" />
+          <ScalarProperty Name="Date_End" ColumnName="Date_End" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="Work_chi" FunctionName="Хранилище KadryModel.Work_chi">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="KadryModel.Work_chi_Result">
+          <ScalarProperty Name="N_worker" ColumnName="N_worker" />
+          <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+          <ScalarProperty Name="Passport" ColumnName="Passport" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Аmount_of_children" ColumnName="Аmount_of_children" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="avgAge" ColumnName="avgAge" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Work_wrk" FunctionName="Хранилище KadryModel.Work_wrk">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="KadryModel.Work_wrk_Result">
+          <ScalarProperty Name="N_worker" ColumnName="N_worker" />
+          <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+          <ScalarProperty Name="Passport" ColumnName="Passport" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Аmount_of_children" ColumnName="Аmount_of_children" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Date_Start" ColumnName="Date_Start" />
+          <ScalarProperty Name="Date_End" ColumnName="Date_End" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

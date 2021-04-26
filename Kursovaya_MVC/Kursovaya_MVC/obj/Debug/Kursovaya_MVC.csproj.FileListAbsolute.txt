@@ -1,0 +1,176 @@
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\csc.exe
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\vbc.exe
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\VBCSCompiler.exe
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Kursovaya_MVC.dll.config
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Kursovaya_MVC.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Kursovaya_MVC.pdb
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Antlr3.Runtime.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\EntityFramework.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\EntityFramework.SqlServer.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Google.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Newtonsoft.Json.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Owin.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Helpers.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Mvc.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Optimization.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Razor.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.Deployment.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.Razor.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\WebGrease.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Helpers.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Mvc.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Optimization.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Razor.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.Deployment.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.Razor.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Antlr3.Runtime.pdb
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Newtonsoft.Json.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\EntityFramework.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\EntityFramework.SqlServer.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Google.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.Helpers.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.Mvc.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.Optimization.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.Razor.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.WebPages.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\EntityFramework.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\EntityFramework.SqlServer.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\obj\Debug\Kursovaya_MVC.csprojResolveAssemblyReference.cache
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\obj\Debug\Kursovaya_MVC.dll
+c:\users\andrey\documents\visual studio 2015\Projects\Kursovaya_MVC\Kursovaya_MVC\obj\Debug\Kursovaya_MVC.pdb
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\csc.exe
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\vbc.exe
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\VBCSCompiler.exe
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\roslyn\VBCSCompiler.exe.config
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Kursovaya_MVC.dll.config
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Kursovaya_MVC.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Kursovaya_MVC.pdb
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Antlr3.Runtime.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\EntityFramework.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\EntityFramework.SqlServer.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Google.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Newtonsoft.Json.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Owin.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Helpers.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Mvc.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Optimization.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Razor.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.Deployment.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.Razor.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\WebGrease.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Helpers.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Mvc.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Optimization.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.Razor.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.Deployment.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\System.Web.WebPages.Razor.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Antlr3.Runtime.pdb
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Newtonsoft.Json.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\EntityFramework.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\EntityFramework.SqlServer.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Google.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.Helpers.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.Mvc.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.Optimization.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.Razor.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.WebPages.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\EntityFramework.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\obj\Debug\Kursovaya_MVC.csprojResolveAssemblyReference.cache
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\obj\Debug\Kursovaya_MVC.dll
+D:\Загрузки\Kurs\Kursovaya_MVC\Kursovaya_MVC\obj\Debug\Kursovaya_MVC.pdb

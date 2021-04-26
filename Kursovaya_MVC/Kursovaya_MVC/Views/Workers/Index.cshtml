@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Kursovaya_MVC.Worker>
+
+@{
+    ViewBag.Title = "Работники";
+}
+
+<h2>Работники</h2>
+
+<p>
+    @Html.ActionLink("Добавить работника", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.N_worker)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Full_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Passport)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Birthday)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sex)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Post)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Аmount_of_children)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>           
+            @Html.DisplayFor(modelItem => item.N_worker)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Full_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Passport)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Birthday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sex)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Post)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Аmount_of_children)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id=item.N_worker }) |
+            @Html.ActionLink("Детали", "Details", new { id=item.N_worker }) |
+            @Html.ActionLink("Удалить", "Delete", new { id=item.N_worker })
+        </td>
+    </tr>
+}
+
+</table>

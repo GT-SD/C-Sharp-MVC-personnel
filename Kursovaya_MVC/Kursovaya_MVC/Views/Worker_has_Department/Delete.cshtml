@@ -1,0 +1,56 @@
+﻿@model Kursovaya_MVC.Worker_has_Department
+
+@{
+    ViewBag.Title = "Удалить назначение";
+}
+
+<h2>Удалить назначение</h2>
+
+<h3>Вы действительно хотите удалить эту запись?</h3>
+<div>
+    <h4>Назначение</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_Start)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_Start)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_End)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_End)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Department.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Department.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Worker.Full_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Worker.Full_Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            @Html.ActionLink("Назад к списку", "Index")
+        </div>
+    }
+</div>
